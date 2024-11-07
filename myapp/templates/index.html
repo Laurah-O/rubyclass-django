@@ -1,0 +1,29 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>home</title>
+</head>
+<body>
+
+<a href="{% url 'index' %}">Home</a>
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'contact' %}">Contact Us</a>
+<a href="{% url 'services' %}">Services</a>
+<a href="{% url 'blog' %}">Blog</a>
+<a href="{% url 'products' %}">Products</a>
+
+<h2>Welcome to django</h2>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores delectus ea eveniet illo incidunt ipsa ipsum, iste itaque laborum nobis, non, omnis totam! Aliquid eos fugiat hic molestias quia.</span><span>Architecto dolores iure laborum non porro quasi quo recusandae sint sunt vitae? Ab asperiores aspernatur blanditiis culpa dolorum nostrum numquam sapiente. Atque aut commodi ducimus, error fugit numquam placeat similique.</span><span>Deserunt explicabo, neque. Ad consectetur dicta dolor magnam neque pariatur quas? Accusamus ad adipisci alias dignissimos, dolorum eius eos eum ex expedita magni odio praesentium quo rem temporibus unde veniam!</span></p>
+
+<img src="{% static 'images/django.png' %}" alt="">
+<img src="{% static 'images/kotlin.png' %}" alt="">
+
+
+</body>
+</html>
